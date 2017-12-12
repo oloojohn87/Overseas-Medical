@@ -71,25 +71,6 @@
             </div>
         </nav>
          
-         <div id="app">
-             
-             <nav class="nav has-shadow">
-                 <div class="container">
-                     <div class="nav-left">
-                         <a class="nav-item" href="{{route('home)}}">
-                             <img src="{{asset}}"
-                             
-                         </a>
-                         
-                     </div>
-                     
-                 </div>
-                 
-                 
-             </nav>
-             
-         </div>
-        
 
         @yield('content')
     </div>
